@@ -1,1 +1,15 @@
-{ "type": "module", "name": "motovabot", "version": "1.0.0", "main": "index.js", "scripts": { "start": "node index.js" }, "dependencies": { "@google/genai": "^2.32.0" } }
+{
+  "name": "motova-whatsapp-agent",
+  "version": "1.0.0",
+  "description": "Agente de IA para WhatsApp Business de MotoVA",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
